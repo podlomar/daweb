@@ -14,7 +14,7 @@ endpointu [/api/dates](https://leviexpress-backend.herokuapp.com/api/dates). Pro
    ```
    https://leviexpress-backend.herokuapp.com/api/dates
    ```
-   a vrací seznam termínů ve formátu, který máme připraven. Změňte výchozí stav `cities` na prázdné pole a po té do něj nastavte výsledek volání uvedeného
+   a vrací seznam termínů ve formátu, který máme připraven. Změňte výchozí stav `dates` na prázdné pole a po té do něj nastavte výsledek volání uvedeného
    endpointu.
 1. Ověřte v prohlížeči, že se do `select`ů načítají data (města a termíny) a že po kliknutí na tlačítko „Vyhledat spoj“ se uživatelem zvolené údaje vypíší do konzole prohlížeče.
 1. Commitněte změny.

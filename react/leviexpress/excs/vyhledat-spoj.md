@@ -13,7 +13,7 @@ na API pro vyhledávání spojení.
    ```
    https://leviexpress-backend.herokuapp.com/api/journey?fromCity=…&toCity=…&date=…
    ```
-   Vytečkovaná místa se nahradí hodnotami vybranými uživatelem.
+   Vytečkovaná místa se nahradí hodnotami vybranými uživatelem, které jsou uložené ve stavech `fromCity`, `toCity` a `date`.
 1. Volání tohoto API vrací JSON s nalezenými spoji. Vypište si výstup do konzole prohlížeče.
 1. Nalezená spojení budeme potřebovat zobrazit v další komponentě na stránce. Potřebujeme je tedy poslat z komponenty `JourneyPicker` jejímu rodiči. V
    komponentě `JourneyPicker` bude property `onJourneyChange`, do které rodič vloží funkci, která se zavolá s údaji nalezeném spoji. Upravte hlavičku
